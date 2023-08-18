@@ -18,7 +18,7 @@ import com.google.gson.JsonParser;
 public class MonedaAPI {
 
 	static double[] exchangeRates;
-	static String key = "c240a8b2c00809914de7aba0";
+	static String key = "";
 	static String urlStr = "https://v6.exchangerate-api.com/v6/"+key+"/latest/USD";
 
 	static void lastUpdateInLocalTime(JsonObject jsonObj) {
