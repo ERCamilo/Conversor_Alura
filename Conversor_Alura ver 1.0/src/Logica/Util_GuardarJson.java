@@ -19,7 +19,7 @@ public class Util_GuardarJson {
 			String jsonFilePath = new File(jarPath).getParent() + File.separator + "archivo.json";
 			return jsonFilePath;
 		} catch (URISyntaxException e) {
-			// TODO Auto-generated catch block
+
 			e.printStackTrace();
 			return null;
 		}
@@ -35,7 +35,7 @@ public class Util_GuardarJson {
 			System.out.println("JSON guardado en el archivo: " + getUbicacion());
 
 		} catch (IOException e) {
-			// TODO: handle exception
+			
 		}
 
 	}
