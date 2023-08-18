@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="Test/Gui.java" kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/the_b/Downloads/iconos/flatlaf-3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/the_b/Downloads/iconos/gson-2.10.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/NetBeans-18/netbeans/java/modules/ext/AbsoluteLayout.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
