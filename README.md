@@ -1,6 +1,8 @@
 # Conversor de Monedas
+[![Recording-2023-08-18-234938.gif](https://i.postimg.cc/9Xd4qgmL/Recording-2023-08-18-234938.gif)](https://postimg.cc/yWN6MPSR)
 
-[![demo-conversor.gif](https://i.postimg.cc/6QcG2vb3/demo-conversor.gif)](https://postimg.cc/kVV5LBm3)
+
+
 
 Este es un programa de conversión de monedas desarrollado en Java. Permite convertir entre diferentes monedas utilizando los datos de una API de tasas de cambio 
 y tambien permite hacer conversiones entre diferentes magnitudes fisicas.
@@ -32,6 +34,11 @@ Este es mi proyecto fue creado con el proposito de cumplir con los requisitos pr
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
 
+## UI
+### Light mode
+[![Light-Mode.png](https://i.postimg.cc/9fkxZFpH/Light-Mode.png)](https://postimg.cc/sBp9RzqT)
+### Dark mode
+[![DarkMode.png](https://i.postimg.cc/XJTzS7Gk/DarkMode.png)](https://postimg.cc/njGkqx1X)
 ---
 
 Creado por [ERCamilo](https://github.com/ERCamilo)
