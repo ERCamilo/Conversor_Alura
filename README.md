@@ -1,7 +1,8 @@
 # Conversor de Monedas
-<p align="center"><img src="https://i.postimg.cc/9Xd4qgmL/Recording-2023-08-18-234938.gif" width="800"/></p>
 
 
+
+<p align="center"><img src="https://i.postimg.cc/mrqT8gFy/themas-Custom-1.png" width="800"/></p>
 
 
 Este es un programa de conversión de monedas desarrollado en Java. Permite convertir entre diferentes monedas utilizando los datos de una API de tasas de cambio 
@@ -10,6 +11,9 @@ Este es mi proyecto fue creado con el proposito de cumplir con los requisitos pr
 
 
 ## Características
+
+
+[![Recording-2023-08-18-234938.gif](https://i.postimg.cc/9Xd4qgmL/Recording-2023-08-18-234938.gif)](https://postimg.cc/yWN6MPSR)
 
 - Conversión entre diferentes monedas.
 - Utiliza la API de [Exchangerate API](https://www.exchangerate-api.com/) para obtener tasas de cambio actualizadas.
