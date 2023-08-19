@@ -1,5 +1,5 @@
 # Conversor de Monedas
-[![Recording-2023-08-18-234938.gif](https://i.postimg.cc/9Xd4qgmL/Recording-2023-08-18-234938.gif)](https://postimg.cc/yWN6MPSR)
+<p align="center"><img src="https://i.postimg.cc/9Xd4qgmL/Recording-2023-08-18-234938.gif" width="800"/></p>
 
 
 
