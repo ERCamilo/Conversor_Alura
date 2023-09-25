@@ -27,51 +27,51 @@ public class Conversor {
         switch (MagConversion) {
 
             case "Moneda" -> {
-                y = MagUtil.valorMoneda.length;
+                y = ListaMagnitudes.valorMoneda.length;
                 this.Magbase = "1 USD";
                 this.valoresBase = new double[y];
                 Conversor.Magnitudes = new String[y];
 
-                this.valoresBase = MagUtil.valorMoneda;
-                Conversor.Magnitudes = MagUtil.Moneda;
+                this.valoresBase = ListaMagnitudes.valorMoneda;
+                Conversor.Magnitudes = ListaMagnitudes.Moneda;
             }
 
             case "Distancia" -> {
-                y = MagUtil.MagDistancia.length;
+                y = ListaMagnitudes.MagDistancia.length;
                 this.Magbase = "1 Metro";
 
                 this.valoresBase = new double[y];
                 Conversor.Magnitudes = new String[y];
-                this.valoresBase = MagUtil.MagDistancia;
-                Conversor.Magnitudes = MagUtil.UniDistancia;
+                this.valoresBase = ListaMagnitudes.MagDistancia;
+                Conversor.Magnitudes = ListaMagnitudes.UniDistancia;
             }
 
             case "Masa" -> {
-                y = MagUtil.MagMasa.length;
+                y = ListaMagnitudes.MagMasa.length;
                 this.Magbase = "1 Gramo";
 
                 this.valoresBase = new double[y];
                 Conversor.Magnitudes = new String[y];
-                this.valoresBase = MagUtil.MagMasa;
-                Conversor.Magnitudes = MagUtil.UniMasa;
+                this.valoresBase = ListaMagnitudes.MagMasa;
+                Conversor.Magnitudes = ListaMagnitudes.UniMasa;
             }
 
             case "Volumen" -> {
-                y = MagUtil.MagVolumen.length;
+                y = ListaMagnitudes.MagVolumen.length;
                 this.Magbase = "1 Litro";
 
                 this.valoresBase = new double[y];
                 Conversor.Magnitudes = new String[y];
-                this.valoresBase = MagUtil.MagVolumen;
-                Conversor.Magnitudes = MagUtil.UniVolumen;
+                this.valoresBase = ListaMagnitudes.MagVolumen;
+                Conversor.Magnitudes = ListaMagnitudes.UniVolumen;
             }
 
             case "Temperatura" -> {
-                y = MagUtil.MagTemperatura.length;
+                y = ListaMagnitudes.MagTemperatura.length;
 
                 this.valoresBase = new double[y];
                 Conversor.Magnitudes = new String[y];
-                Conversor.Magnitudes = MagUtil.MagTemperatura;
+                Conversor.Magnitudes = ListaMagnitudes.MagTemperatura;
             }
         }
     }
