@@ -33,6 +33,11 @@ Este es mi proyecto fue creado con el proposito de cumplir con los requisitos pr
 
 - JDK 8 o superior.
 - Clave de API de [Exchangerate API](https://www.exchangerate-api.com/).
+- Librerias:
+  gson-2.10
+  AbsoluteLayout
+  flatlaf-3.2
+  
 
 ## Licencia
 
