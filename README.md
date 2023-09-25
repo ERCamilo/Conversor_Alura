@@ -33,7 +33,10 @@ Este es mi proyecto fue creado con el proposito de cumplir con los requisitos pr
 
 - JDK 8 o superior.
 - Clave de API de [Exchangerate API](https://www.exchangerate-api.com/).
-- Librerias: gson-2.10, AbsoluteLayout, flatlaf-3.2.
+- Librerias:
+1. gson-2.10 [Download](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10/gson-2.10.jar)
+2. AbsoluteLayout [Download](https://nexus.web.cern.ch/nexus/content/repositories/public/netbeans/netbeans-absolutelayout/1.0/netbeans-absolutelayout-1.0.jar)
+3. flatlaf-3.2. [Download](https://repo1.maven.org/maven2/com/formdev/flatlaf/3.2/flatlaf-3.2.jar)
   
 
 ## Licencia
