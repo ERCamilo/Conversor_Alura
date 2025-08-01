@@ -6,8 +6,10 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry excluding="Test/Gui.java" kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/the_b/Downloads/iconos/flatlaf-3.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/the_b/Downloads/iconos/gson-2.10.1.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/NetBeans-18/netbeans/java/modules/ext/AbsoluteLayout.jar"/>
+	<classpathentry kind="lib" path="librerias/flatlaf-3.4.jar"/>
+	<classpathentry kind="lib" path="librerias/gson-2.10.1.jar"/>
+	<classpathentry kind="lib" path="librerias/Absolute-Layout.jar"/>
 	<classpathentry kind="output" path="bin"/>
+    <classpathentry kind="src" path="Recursos"/>
+
 </classpath>

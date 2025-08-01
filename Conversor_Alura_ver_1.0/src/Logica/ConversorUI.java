@@ -6,15 +6,9 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.event.MouseListener;
 
-import javax.swing.DefaultComboBoxModel;
-import javax.swing.ImageIcon;
-import javax.swing.JOptionPane;
-import javax.swing.SwingUtilities;
-import javax.swing.UIManager;
+import javax.swing.*;
+import com.formdev.flatlaf.FlatLightLaf;
 
-import com.formdev.flatlaf.*;
-
-import java.awt.Color;
 
 /**
  *
@@ -22,6 +16,9 @@ import java.awt.Color;
  */
 public class ConversorUI extends javax.swing.JFrame implements ActionListener, KeyListener, MouseListener {
 
+
+    
+    
     private static final long serialVersionUID = 1L;
 
     Conversor conversor = new Conversor();
@@ -78,9 +75,13 @@ public class ConversorUI extends javax.swing.JFrame implements ActionListener, K
         JbackG = new javax.swing.JLabel();
         JbackG1 = new javax.swing.JLabel();
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/arrow_blue.gif"))); // NOI18N
+        try{
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("Recursos/arrow_blue.gif"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("Recursos/blueSky.gif"))); // NOI18N
+        }catch(Exception e){
+         System.out.println("Error" + e);
+        }
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/blueSky.gif"))); // NOI18N
         jLabel3.setText("jLabel3");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -446,7 +447,7 @@ public class ConversorUI extends javax.swing.JFrame implements ActionListener, K
         if (Swith.isSelected()) {
             recursos.textoArcoiris(300, ConversionActual);
         } else {
-            ConversionActual.setForeground(Color.WHITE);
+            ConversionActual.setForeground(new java.awt.Color(255, 255, 255));
         }
         recursos.cambiarTema(this);
         recursos.ImagenDeFondo(Swith,/*"giphyred.gif"*/ "blueSky.gif", JbackG, JbackG1, JbackG2);
